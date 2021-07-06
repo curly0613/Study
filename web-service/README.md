@@ -27,6 +27,17 @@
 - 유명한 material-ui 활용
   - https://github.com/creativetimofficial/material-dashboard-react
   - 주로 dashboard 개발이 대부분이라고 생각
+- 구조
+  ```
+  - src/
+    - asset/
+    - component/    : 화면에 사용할 부품 정의(표, 사이드바, 카드 등)
+    - hooks/        :
+    - layouts/      : 화면 구성
+    - variable/
+    - views/        : 페이지? 항목 화면
+    - routes.js     : 사이드바 항목 정의
+  ```
 - 테스트 url
   - http://211.109.168.54:9213/admin/dashboard
 ### 개발 일지
