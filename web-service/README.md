@@ -30,12 +30,12 @@
 - 테스트 url
   - http://211.109.168.54:9213/admin/dashboard
 ### 개발 일지
-- 20210630 : react example code test
-- 20210701 : react dashboard ui 탐색
-- 20210702 : npm dependency issue
-- 20210703 : yarn을 활용한 웹서비스 동작
-- 20210705 : 코드 구조 분석
-- 20210706 : 간단한 테스트 (text 변경, 이미지 변경, layout 변경 등)
+- 2021.6.30 : react example code test
+- 2021.7.1 : react dashboard ui 탐색
+- 2021.7.2 : npm dependency issue
+- 2021.7.3 : yarn을 활용한 웹서비스 동작
+- 2021.7.5 : 코드 구조 분석
+- 2021.7.6 : 간단한 테스트 (text 변경, 이미지 변경, layout 변경 등)
 
 
 ---
