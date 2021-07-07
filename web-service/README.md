@@ -64,4 +64,5 @@
 - 2021.7.3 : yarn을 활용한 웹서비스 동작
 - 2021.7.5 : 코드 구조 분석
 - 2021.7.6 : 간단한 테스트 (text 변경, 이미지 변경, layout 변경 등)
-- 2021.7.7 : python flask restful server get, post method, React Button에 request 요청 
+- 2021.7.7 : python flask restful server get, post method, React Button에 request 요청 (fetch)
+              막혔다!!!! why? 아마 외부 web에서 react 앱을 실행시키면 외부 network로 인식하여 내부 flask server의 port에 접근 불가능(포트포워딩x)
