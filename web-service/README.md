@@ -44,9 +44,37 @@
 ### Framework
 - Python에서는 대표적으로 Flask, Django
 - 프로토 타입 개발용으로는 Flask가 좋다 (코딩의 효율성)
-
+- Environments
+  - python 3.6
+  - flask, flask-restful
 - example
+  ```
+  from flask import Flask, request
+  from flask_restful import Api, Resource
 
+  app = Flask('TEST')
+  api = Api(app)
+
+  class Test(Resource) :
+    def get(self) :
+        output_json = dict()
+        output_json['output'] = "HTTP GET REQUEST RETURN!"
+        return output_json
+
+    def post(self) :
+        input_json = request.json
+        output_json = dict()
+
+        output_json['input'] = input_json['text']
+        output_json['output'] = "HTTP POST REQUEST RETURN!"
+        return output_json
+
+  api.add_resource(Test, '/test')
+
+  if __name__ == "__main__" :
+    app.run(host='0.0.0.0', port=8081, debug=True, use_reloader=True)
+
+  ```
 
 
 ---
