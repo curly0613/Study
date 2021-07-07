@@ -38,16 +38,6 @@
     - views/        : 페이지? 항목 화면
     - routes.js     : 사이드바 항목 정의
   ```
-- 테스트 url
-  - http://211.109.168.54:9213/admin/dashboard
-### 개발 일지
-- 2021.6.30 : react example code test
-- 2021.7.1 : react dashboard ui 탐색
-- 2021.7.2 : npm dependency issue
-- 2021.7.3 : yarn을 활용한 웹서비스 동작
-- 2021.7.5 : 코드 구조 분석
-- 2021.7.6 : 간단한 테스트 (text 변경, 이미지 변경, layout 변경 등)
-
 
 ---
 ## BackEnd
@@ -62,3 +52,16 @@
 ---
 ## Docker-compose
 - Frontend, Backend 각각의 Docker image로 부터 하나의 웹 서비스 실행
+
+---
+## 개발 일지
+- 테스트 url
+  - http://211.109.168.54:9213/admin/dashboard
+
+- 2021.6.30 : react example code test
+- 2021.7.1 : react dashboard ui 탐색
+- 2021.7.2 : npm dependency issue
+- 2021.7.3 : yarn을 활용한 웹서비스 동작
+- 2021.7.5 : 코드 구조 분석
+- 2021.7.6 : 간단한 테스트 (text 변경, 이미지 변경, layout 변경 등)
+- 2021.7.7 : python flask restful server get, post method, React Button에 request 요청 
