@@ -23,7 +23,7 @@
   - ```
     $ PORT=% yarn start
     ```
-### 테스트 오픈 소스
+### 테스트 코드
 - 유명한 material-ui 활용
   - https://github.com/creativetimofficial/material-dashboard-react
   - 주로 dashboard 개발이 대부분이라고 생각
